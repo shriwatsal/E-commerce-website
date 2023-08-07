@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PostCSS.css">
+    <script>
+        function button() 
+            {document.getElementById("submit").innerHTML = "Your Ad was Submitted Successfully.";}
+    </script>
+    </head>
+<title>Post An Ad</title>
+<header class ="logo" >
+    <a href="index.html"><img src ="BookBuffet.png" alt ="Book Buffet" width = "100" height ="100"></a>
+    <div id="Login"><a href="bookspage.html"><button class="button">Buy</button></a><span> </span><a href="indexak.html"><button class="button">Sell</button></a><span> </span><a href="indexnik.html"><button class="button">Login</button></a></div>
+</header>
+<body>
+    
+<div id="submit">
+<hr style="justify-content: center;text-align: center;">
+<h1 class="title" style="justify-content: center;text-align: center;">POST AN AD</h1>
+<hr>
+<table>
+    <tr class ="heading">
+        <th><h2>INCLUDE SOME DETAILS</h2></th>
+    </tr>
+    <tr>
+        <td>Ad Title</td>
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+</table>
+
+<table style="padding-right: 23px;">
+    <tr class ="heading">
+        <th><h2>SET A PRICE</h2></th>
+    </tr>
+    <tr>
+        <td>Price</td>
+    </tr>
+    <tr>
+        <td>&#8377<input type = "text" style="width:685px;"></td>
+    </tr>
+</table>
+
+<table style = "padding-right: 62px;">
+    <tr class ="heading">
+        <th><h2>UPLOAD PHOTOS OF YOUR ITEM</h2></th>
+    </tr>
+    <tr>
+        <td><button><input type ="file" style="width:650px;"></button></td>
+    </tr>
+</table>
+
+<table style="padding-right: 20px;">
+    <tr class ="heading">
+        <th><h2>ENTER YOUR CONTACT DETAILS</h2></th>
+    </tr>
+    <tr>
+        <td>Name:</td>
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+    <tr>
+        <td>Phone Number:</td>    
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+    <tr>
+        <td>Email Id:</td>    
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+    <tr>
+        <td>Location (City, State):</td>    
+    </tr>
+    <tr>
+        <td><input type = "text"></td>
+    </tr>
+</table>
+<hr>
+<div id="S"><button class="button" type ="button" onclick="button()" style ="font-size: 30px;">Submit</button></div>
+</div>
+</body>
+</html>

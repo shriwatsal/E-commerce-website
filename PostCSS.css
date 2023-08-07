@@ -1,0 +1,13 @@
+/* PostCSS.css*/
+body {background-image: url('background.jpg');text-align: center; font-family: 'Bree Serif';font-size: 40px;font-style: oblique;font-weight: bolder;}
+.title {background-color: rgb(197,33,33);border-radius: 15px; color: whitesmoke;text-align: center; font-size: 50px;font-family:'Bree Serif'; font-weight: bolder;font-style: normal;}
+.logo {background-color: rgb(255, 255, 255);padding-left: 20px;padding-top: 5px;; display:inline-flex;margin: 0.5px; width: 1490px; }
+table {border: rgb(0, 0, 0); border-width: medium; background-color: white; border: 5px; margin-left: 380px;padding: 20px;}
+.heading {font-size: 15px;font-family: 'Bree Serif'; color: navy;font-style: oblique;text-align: left;}
+.header{background: aliceblue;}
+td {font-size: 20px;font-family: 'Bree Serif';font-weight: bold; text-align: left;font-style: normal;}
+input {width: 700px; height: 40px;font-size: 15px;font-family: monospace;}
+#Login {text-align: right; padding-right: 20px;padding-bottom: 20px; margin-left: 1100px;margin-top: 20px;}
+#S {text-align: center; padding-top: 0px;}    
+.button {background-color: rgb(197,33,33);font-family: 'Bree Serif';color: white; font-size: 20px; border-radius: 20px;padding: 5px; padding-right: 18px;padding-left: 20px;
+cursor: pointer;}
